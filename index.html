@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chiloé Conectado - Cámaras y Conectividad</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;background:#faf6ef;color:#3a2a1a}
+header{background:#fff;padding:20px;text-align:center;border-bottom:4px solid #c9a86a}
+.logo{width:110px;height:110px;background:#e8dcc3;border-radius:50%;margin:auto;display:flex;align-items:center;justify-content:center;font-size:48px}
+h1{margin:10px 0 0;color:#4a2f12}
+.hero{padding:40px 20px;text-align:center;background:linear-gradient(#fff7e6,#f5e9c9)}
+.btn{display:inline-block;padding:14px 28px;background:#4a2f12;color:#fff;border-radius:30px;text-decoration:none;font-weight:bold;margin:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:30px}
+.card{background:#fff;padding:20px;border-radius:16px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+input,textarea,select{width:100%;padding:12px;margin:6px 0 12px;border:1px solid #d8c7a8;border-radius:8px;box-sizing:border-box}
+footer{background:#4a2f12;color:#fff;padding:30px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">🏡</div>
+<h1>Chiloé Conectado</h1>
+<p>Instalación de Cámaras y Conectividad - Profesional y Garantizado</p>
+<p><b>Chiloé y alrededores</b> | +56 9 9717 2381 | contacto@chiloeconectado.cl</p>
+</header>
+
+<section class="hero">
+<h2>¿Sin internet rural o necesitas seguridad?</h2>
+<p>Instalamos cámaras, Starlink, antenas Yagi y ampliamos tu red WiFi.</p>
+<a class="btn" href="https://wa.me/56997172381">Cotiza por WhatsApp</a>
+<a class="btn" href="#agenda" style="background:#c9a86a;color:#3a2a1a">Reservar Visita</a>
+</section>
+
+<div class="grid">
+<div class="card"><h3>📹 Cámaras Seguridad</h3><p>IP, WiFi, PoE, visión nocturna y monitoreo celular.</p></div>
+<div class="card"><h3>📡 Internet Rural</h3><p>Antenas Yagi para mejorar señal en zonas rurales.</p></div>
+<div class="card"><h3>🛰️ Starlink</h3><p>Instalación y configuración completa.</p></div>
+<div class="card"><h3>💾 DVR/NVR</h3><p>Grabación, respaldos y acceso remoto.</p></div>
+<div class="card"><h3>📶 Redes WiFi</h3><p>Routers, repetidores y cableado.</p></div>
+<div class="card"><h3>📱 Monitoreo</h3><p>Todo en tu celular, desde cualquier lugar.</p></div>
+</div>
+
+<section style="padding:30px;background:#fff;max-width:800px;margin:20px auto;border-radius:16px">
+<h2>Solicita Cotización</h2>
+<form action="https://formspree.io/f/xknlqryj" method="POST">
+<input type="text" name="nombre" placeholder="Tu nombre" required>
+<input type="tel" name="telefono" placeholder="Teléfono" required>
+<select name="comuna" required>
+<option value="">Comuna</option><option>Castro</option><option>Quellón</option><option>Dalcahue</option><option>Chonchi</option><option>Ancud</option><option>Otra</option>
+</select>
+<select name="servicio"><option>Cámaras</option><option>Internet Rural</option><option>Starlink</option><option>Red WiFi</option><option>Pack completo</option></select>
+<textarea name="mensaje" rows="4" placeholder="Describe tu casa/terreno, cuántas cámaras, si tienes luz/internet"></textarea>
+<button class="btn" type="submit">Enviar Cotización</button>
+</form>
+</section>
+
+<section id="agenda" style="padding:30px;text-align:center">
+<h2>Agenda Visita Técnica</h2>
+<p>Crea gratis en calendly.com y pega tu link aquí. Ej: calendly.com/tu-nombre/visita</p>
+</section>
+
+<footer>
+<p>Chiloé Conectado - +56 9 9717 2381 - hecramos@gmail.com</p>
+</footer>
+</body>
+</html>
